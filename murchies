@@ -1,0 +1,1669 @@
+
+
+
+
+<!doctype html>
+<html lang="en">
+
+
+
+<!-- HEAD -->
+
+<head>
+    
+
+    <!-- Google Tag Manager (head) -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-K65W2XD');</script>
+    <!-- End Google Tag Manager -->
+
+    
+
+
+<!-- META -->
+<meta charset="UTF-8">
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Recipe Murchie&#39;s Tea &amp; Coffee</title>
+<link rel="shortcut icon" href="/static/img/favicon.ico">
+<!-- META END -->
+
+
+
+<!-- CORE CSS -->
+  <link rel="stylesheet" href="/static/css/mezzanine.css?v=4.1.25" type="text/css">
+  <link rel="stylesheet" href="/static/vendor/fontawesome/css/fontawesome.css" type="text/css">
+  <link rel="stylesheet" href="/static/vendor/fontawesome/css/brands.css" type="text/css">
+  <link rel="stylesheet" href="/static/vendor/fontawesome/css/solid.css" type="text/css">
+  <link rel="stylesheet" href="/static/css/select2.min.css?v=4.1.25">
+  <link rel="stylesheet" href="/static/thematic/css/owl.carousel.min.css?v=4.1.25">
+  <link rel="stylesheet" href="/static/vendor/slick/slick.css">
+<!-- CORE CSS END -->
+
+
+
+<link rel="alternate" type="application/rss+xml" title="RSS" href="/recipes/feeds/rss/">
+<link rel="alternate" type="application/atom+xml" title="Atom" href="/recipes/feeds/atom/">
+
+
+
+
+</head>
+
+
+<!-- BODY -->
+
+<body class="p-0">
+    
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K65W2XD"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    
+
+    
+    <script src="/static/mezzanine/js/jquery-1.8.3.min.js?v=4.1.25"></script>
+    <script src="/static/shop/js/ajaxq.js?v=4.1.25"></script>
+    <script src="/static/shop/js/timeslotpicker.js?v=4.1.25"></script>
+    <script src="/static/shop/js/subcart_checkout_widget.js?v=4.1.25"></script>
+    <script src="/static/js/select2.full.min.js?v=4.1.25"></script>
+    <script src="/static/thematic/js/owl.carousel.min.js?v=4.1.25"></script>
+    <script src="/static/vendor/textFit.min.js"></script>
+    <script src="/static/vendor/htmx/htmx.min.js"></script>
+    
+    <!-- Render Bundles -->
+    <script src="/static/bundles/vendors-node_modules_lodash_lodash_js-d9e475a2f317e6d5e324.js" ></script>
+<script src="/static/bundles/vendors-node_modules_popperjs_core_dist_cjs_popper_js-4e2138795629fb4eede0.js" ></script>
+<script src="/static/bundles/vendors-node_modules_bootstrap_dist_js_bootstrap_js-55baf671bf2ec4c8ae40.js" ></script>
+<script src="/static/bundles/main-1ef342f8180c6fe6724a.js" ></script>
+    <link href="/static/bundles/theme-691568623a913ca3b357.css" rel="stylesheet" />
+<script src="/static/bundles/theme-3849ea7db71f250ea877.js" ></script>
+    <link href="/static/bundles/vendors-node_modules_eonasdan_tempus-dominus_dist_js_tempus-dominus_js-node_modules_eonasdan_-872f18-83a97acc78cada208462.css" rel="stylesheet" />
+<script src="/static/bundles/vendors-node_modules_eonasdan_tempus-dominus_dist_js_tempus-dominus_js-node_modules_eonasdan_-872f18-344c5242ada1059e819e.js" ></script>
+<script src="/static/bundles/vendor-d025ae266b0bf6faedb8.js" ></script>
+
+<script>
+    window.mc_urls = {
+        cart_add_endpoint: "/cart_add_endpoint/",
+        cart_merge_endpoint: "/cart_merge_endpoint/",
+        shopping_list_create_endpoint: "/shopping_list_add_ajax/",
+        shopping_list_set_default:
+          "/shopping_list_set_default/999/".replace('999/', ''),
+        patch_item_endpoint: "/patch_item_endpoint/",
+        order_title_endpoint: "/order_title_endpoint/",
+        get_subcart_checkout_options: "/get_subcart_checkout_options/",
+        set_subcart_checkout_options: "/set_subcart_checkout_options/",
+        update_shared_user_fields: "/update_shared_user_fields/",
+        checkout_options: "/checkout_options/",
+        save_address_to_cart: "/profiles/save_address_to_cart/",
+        validate_discount_code: "/discount/validate_discount_code/",
+        save_address_to_session: "/profiles/save_address_to_session/",
+        postcode_endpoint: "/postcode_via_json/",
+    };
+
+    window.current_page_id = "";
+    var wishlistOnLoad = [
+      
+    ];
+    /* Legacy compatibility: 'loose' variables on the window for each URL.
+    TODO: update all Javascript to use mc_urls instead */
+    for(url_name in window.mc_urls){
+        var url = window.mc_urls[url_name];
+        window[url_name] = url;
+      }
+      var fave_add_endpoint = "/toggle_favourite_json/";
+      window.mc_use_fave_for_fave = false;
+  
+      var cartUrl = '/all_carts_rendered/';
+      window.serial_cart = {"id": null, "items": []};
+      window.serial_user = {"is_authenticated": false, "username": ""};
+      window.mc_settings = {"DEBUG": false, "TIME_ZONE": "America/Vancouver", "SCHEDULE_WIDGET_JS_OPTIONS": {}, "ROUTIFIC_ROUTES_VISIBLE": false, "USING_BATCHTRACKER": false, "USING_LOCKER_MONITOR": false, "LOCKER_USING_SIMPLE_INVENTORY": true, "CARE_ANALYTICS_CHART_KEYS": ["order_states"], "CARE_FINALIZE_FORM_SHOWN": false, "CARE_CAN_ADD_FEES_TO_FINALIZED": true, "CARE_CUSTOMERS": "CUSTOMERS", "CARE_ORDERS": "ORDERS", "CARE_DISPATCHERS": "DISPATCHERS", "CARE_SOURCES": "SOURCES", "CARE_ROUTES": "ROUTES", "CARE_SHOWCASE": "SHOWCASE", "CARE_TABS": ["CUSTOMERS", "ORDERS", "DISPATCHERS", "SOURCES", "ROUTES", "SHOWCASE", "PROCUREMENT"], "CARE_HIDDEN_TABS": ["SHOWCASE", "PROCUREMENT"], "LABELS_PRINTER_NETWORK": true, "LOCKER_DEFAULT_PIN_LENGTH_CHOICES": [5, 6, 7, 8, 9, 10], "LOCKER_SUPPLY_AFFECTS_VENDING": false, "SHOP_CART_BUTTON_USES_DOLLAR_AMOUNT": false, "SHOP_CART_BUTTON_USES_TOTAL_QUANTITIES": true, "SHOP_VISIBLE_ORDER_STATUS_CHOICES": [[2000, "Placed"], [7000, "Shipped"], [10000, "Cancelled"], [11000, "Exception"]], "SHOP_VISIBLE_ORDER_DEFAULT_STATUS": 6000, "SHOP_ORDER_STATUS_LIVE": 1000, "SHOP_ORDER_STATUS_EXPIRED": 3000, "SHOP_ORDER_STATUS_PLACED": 2000, "SHOP_ORDER_STATUS_PICKABLE": 4000, "SHOP_ORDER_STATUS_PICKING_IN_PROGRESS": 4500, "SHOP_ORDER_STATUS_PICKUP_READY": 8000, "SHOP_ORDER_STATUS_PICKED_UP": 9000, "SHOP_ORDER_STATUS_DELIVERABLE": 6000, "SHOP_ORDER_STATUS_ENROUTE": 14000, "SHOP_ORDER_STATUS_DELIVERED": 7000, "SHOP_ORDER_STATUS_NOT_DELIVERED": 7500, "SHOP_ORDER_STATUS_HOLD": 12000, "SHOP_ORDER_STATUS_EXCEPTION": 11000, "SHOP_ORDER_STATUS_CANCELLED": 10000, "SHOP_ORDER_STATUS_GHOST": 5000, "SHOP_ORDER_STATUS_CHOICES": [[1000, "Live"], [2000, "Placed"], [3000, "Expired"], [4000, "Pickable"], [4500, "Picking in progress"], [5000, "Ghost"], [6000, "Deliverable"], [7000, "Shipped"], [7500, "Not Delivered"], [8000, "Pickup Ready"], [9000, "Picked Up"], [10000, "Cancelled"], [11000, "Exception"], [12000, "Hold"], [14000, "Enroute"]], "PACKAGE_TYPE_CHOICES": [["0", "Ambient"], ["1", "Refrigerator"], ["2", "Freezer"], ["3", "Restricted"], ["4", "Heated"]], "PACKAGE_SIZE_CHOICES": [["Tiny", "Tiny package"], ["Extra Small", "Extra small package"], ["Small", "Small package"], ["Medium", "Medium package"], ["Large", "Large package"], ["Extra Large", "Extra large package"]], "MOBILE_APPS_QUERY_PARAMS": "{}", "MOBILE_APPS_FINALIZE_ORDER_BUTTON": true, "MOBILE_APPS_READY_BUTTON": false, "MOBILE_APPS_UPDATED_STATUS_ON_READY": 8000, "MEGA_MENU_ITEM_THRESHOLD": 5, "CART_ALERT_MSGS_ENABLED": true, "SHOP_PREVIOUS_PAGE_REFRESH": false, "SHOP_ASSEMBLY_DEPARTMENT_CHOICES": [["00", "Not on report"], ["01", "Department 1"], ["02", "Department 2"]], "SHOP_PRODUCT_DEPARTMENT_CHOICES": [["1000", "Deli"], ["2000", "Meat"], ["3000", "Seafood"], ["4000", "Other"]], "MOBILE_APPS_SELECT_STORE": true};
+  
+
+      $( document ).ready(function() {
+        window.dataLayer = window.dataLayer || [];
+        window.MightyJS.render_serial_cart(window.serial_cart);
+        window.console_cart.bindCartWidgets();
+        window.MightyJS.initStickyNav();
+        window.MightyJS.initDropdownAjax();
+        window.console_cart.refreshCartHTML(function () {console.log("Refreshed Cart");});
+        window.MightyJS.initShoppingLists();
+  
+        window.MightyJS.resizeHandler();
+        addEventListener('resize', function(event) {
+          window.MightyJS.resizeHandler();
+        });
+        addEventListener('orientationchange', function(event) {
+          window.MightyJS.orientationHandler();
+        });
+  
+        // Prevent the news ticker message from overflowing
+        // throws an error if the object is hidden
+        try {
+          textFit(document.querySelector('.news-ticker-body '), {});
+        } catch (err) {}
+      });
+
+</script>
+
+
+
+
+
+  <!-- HEADER ABOVE -->
+      <div class="w-100 " id="mc-header-above-full" style="background-color: #FAFAFA">
+        
+          <div class="container g-0" id="mc-header-above">
+            <div class="news-ticker-body text-center px-3">
+              <style="color:#373D3F"><a href="/newsletter/">Sign up for Murchie's News and get $10 off your next order of $50 or more!</a></b>
+            </div>
+          </div>
+        
+      </div>
+  <!-- END HEADER ABOVE -->
+
+
+
+  <!-- HEADER -->
+    <div class="w-100 page-has-newsticker" id="mc-header-full">
+        
+          <div class="container g-0" id="mc-header">
+            
+              <div class="w-100" id="mc-header-main">
+                <div class="row g-0 h-100">
+                  
+                  <div class="col-4" id="mc-header-main-left">
+                    
+                      
+                      <!-- BRAND LOGO -->
+                      <div class="mc-brand-logo h-100 d-flex align-items-end">
+                        <a class="" href="/">
+                          <img class="mc-brand-img mw-100" alt="Murchie&#39;s Tea &amp; Coffee" src="/static/brand/img/brand_logo.svg?v=4.1.25"/>
+                        </a>
+                      </div>
+                      <!-- END BRAND LOGO -->
+                      
+                    
+                  </div>
+                  
+
+                  
+                    <div class="d-none d-lg-flex col-lg-2" id="mc-header-main-center">
+                      
+                    </div>
+                  
+
+                  
+                  <div class="d-flex col-8 col-lg-6 justify-content-end" id="mc-header-main-right">
+                    
+                      <div class="row g-0 h-100 align-items-center">
+                        <div class="col-12">
+                          <div class="row g-0 h-100 ">
+
+                            
+                            <div class="col" id="mc-header-nav-extra">
+                              
+                            </div>
+                            
+
+                            
+                            <div class="col-auto" id="mc-header-login-dropdown">
+                              
+                                <ul class="nav flex-nowrap">
+                                  
+                                    
+                                  
+                                
+                                  <li class="nav-item dropdown">    
+                                    <a class="nav-link dropdown-toggle" href="#" id="signinMenuToggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Sign In</a>
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="/accounts/login/">Sign In</a></li>
+                                        
+                                        <li><a class="dropdown-item" href="/accounts/signup/">Create an Account</a></li>
+                                      
+                                    </ul>
+                                  </li>
+                                
+                                
+                                  <li class="nav-item dropdown">
+                                    <span class="sr-only">Toggle Compare Products</span>
+                                    
+                                      <a href="#" id="compare-nav-btn" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i alt="Compare Products"
+                                            title="Compare Products"
+                                            class="icon-mc-compare compare-icon-sm compare-nav-icon"
+                                            ></i>
+                                        
+                                        
+                                      </a>
+                                      
+
+
+
+
+<ul class="rounded-0 dropdown-menu" style="min-width: 250px;">
+    
+    <li class="dropdown-item">
+        You have no items to compare.
+    </li>
+    
+    
+</ul>
+ 
+                                    
+                                  </li>
+                                
+                                </ul>
+                              
+                            </div>
+                            
+
+                            
+                            <div class="col-auto d-none d-sm-flex justify-content-end" id="mc-header-cart-button">
+                              
+                                    <button class="btn btn-primary cart-button" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMiniCart" aria-controls="offcanvasMiniCart">
+        <i class="fa-solid fa-cart-shopping ms-1"></i>
+        
+
+<span class="cart-subtotal-or-count sub-total badge badge-xs">
+    
+    
+    
+    
+    0
+    
+    
+    
+    
+</span>
+    </button>
+                              
+                            </div>
+                            
+
+                          </div>
+                        </div>
+                        
+                          <div class="col-8 offset-4 d-flex d-sticky-none justify-content-end align-items-center search-box" id="mc-header-search-bar">
+                            
+                              <form action="/results/" class="w-100" role="search" name="search-form">
+                                <div class="d-flex">
+                                  <div class="flex-grow-1 my-1">
+                                    <input class="form-control" type="text" placeholder="Search" name="q"
+                                      value="" autocomplete="off" id="mc-search-input">
+                                  </div>
+                                  <div class="my-1">
+                                    <button type="submit" class="form-control btn inline-search-btn my-1 me-1 d-flex justify-content-between align-items-center">
+                                      <i class="fa fa-search" title="Search"></i>
+                                    </button>
+                                  </div>
+                                </div>
+                              </form>
+                            
+                          </div>
+                        
+                      </div>
+                    
+                  </div>
+                  
+                </div>
+              </div>
+            
+          </div>
+        
+        
+            <div class="w-100" id="mc-header-nav-full">
+              
+                <div class="container g-0 d-flex flex-nowrap nav" id="mc-header-nav">
+                  
+                    <div id="mc-header-nav-menu-button" class="grid-center">
+                      
+                      <a href="#" class="nav-link d-block d-lg-none" id="mc-header-nav-core-link" onclick="window.MightyJS.loadSideMenu()" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <i class="fa-solid fa-bars"></i>
+                      </a>
+                      
+                      
+                      <a href="/" role="button" class="nav-link d-none d-lg-block" id="mc-header-nav-home-link">
+                        <i class="fa-solid fa-house-chimney"></i>
+                      </a>
+                      
+                    </div>
+                  
+                  <div class="flex-grow-1 d-none d-sm-flex justify-content-between" id="mc-header-nav-bar">
+                    <ul class="nav d-flex mc-top-navbar-ul">
+    
+      
+        <li class="nav-item dropdown grid-center mc-top-navbar-ul">  
+          <a class="nav-link dropdown-toggle h-100" 
+             href="#"
+             data-bs-toggle="dropdown"
+             data-bs-auto-close="outside"
+             role="button"
+             aria-expanded="false"
+             
+             hx-get="/menu/231/231/menu_top_left/"
+             hx-target="#topnav-231-dropdown"
+             
+            >
+            Fine Tea
+          </a>
+          <ul class="dropdown-menu" id="topnav-231-dropdown" style="min-width: 200px;">
+          </ul>
+        </li>
+      
+    
+      
+        <li class="nav-item dropdown grid-center mc-top-navbar-ul">  
+          <a class="nav-link dropdown-toggle h-100" 
+             href="#"
+             data-bs-toggle="dropdown"
+             data-bs-auto-close="outside"
+             role="button"
+             aria-expanded="false"
+             
+             hx-get="/menu/234/234/menu_top_left/"
+             hx-target="#topnav-234-dropdown"
+             
+            >
+            Coffee
+          </a>
+          <ul class="dropdown-menu" id="topnav-234-dropdown" style="min-width: 200px;">
+          </ul>
+        </li>
+      
+    
+      
+            <li class="nav-item grid-center mc-top-navbar-ul">
+              <a class="nav-link h-100" href="/gourmet-products/" >
+                Pantry
+              </a>
+            </li>
+      
+    
+      
+        <li class="nav-item dropdown grid-center mc-top-navbar-ul">  
+          <a class="nav-link dropdown-toggle h-100" 
+             href="#"
+             data-bs-toggle="dropdown"
+             data-bs-auto-close="outside"
+             role="button"
+             aria-expanded="false"
+             
+             hx-get="/menu/772/772/menu_top_left/"
+             hx-target="#topnav-772-dropdown"
+             
+            >
+            Gift Store
+          </a>
+          <ul class="dropdown-menu" id="topnav-772-dropdown" style="min-width: 200px;">
+          </ul>
+        </li>
+      
+    
+      
+            <li class="nav-item grid-center mc-top-navbar-ul">
+              <a class="nav-link h-100" href="/tasting-lab/" >
+                Tasting Lab
+              </a>
+            </li>
+      
+    
+  </ul>
+                    <ul class="nav d-flex mc-top-navbar-ul justify-content-end flex-wrap" style="flex-shrink: 3">
+    
+      
+            <li class="nav-item grid-center mc-top-navbar-ul">
+              <a class="nav-link h-100" href="/blog/" >
+                Blog
+              </a>
+            </li>
+      
+    
+      
+            <li class="nav-item grid-center mc-top-navbar-ul">
+              <a class="nav-link h-100" href="/locations/" >
+                Locations &amp; Contact
+              </a>
+            </li>
+      
+    
+  </ul>
+                  </div>
+                  <div class="d-flex d-sm-none justify-content-end flex-grow-1">
+                    <button class="btn btn-link cart-button" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMiniCart" aria-controls="offcanvasMiniCart">
+                      <i class="fa-solid fa-cart-shopping ms-1 text-white"></i>
+                      
+
+<span class="cart-subtotal-or-count sub-total badge badge-xs">
+    
+    
+    
+    
+    0
+    
+    
+    
+    
+</span>
+                    </button>
+                  </div>
+                </div>
+                
+              </div>
+          
+      </div>
+    <!-- END HEADER -->
+    
+
+    
+    <!-- MAIN -->
+    <div class="w-100 page-has-newsticker" id="mc-main-content-full">
+      
+      
+
+        <div class="container py-3" id="mc-main-content">
+          
+            
+          
+          
+
+<div class="row g-0 px-2">
+    <div class="col-12">
+        <!--                                               -->
+        <!-- A page named /blog must exist in Mezzanine    -->
+        <!-- and be at the correct URL depth               -->
+        <!--                                               -->
+
+        
+            
+        
+
+    </div>
+</div>
+
+
+<div class="row g-0 px-2">
+    
+
+<div class="col-12 col-sm-3 left">
+        
+        
+        <div class="mb-4" id="recent-posts-accordion" role="tablist" aria-multiselectable="true">
+            <h4 class="text-left heading arrow-after" data-parent="#cat-accordion"
+                aria-expanded="false" aria-controls="recent-posts"
+                data-bs-toggle="collapse" data-bs-target="#recent-posts">Recent Posts
+            </h4>
+            <hr class="m-0" />
+            <div id="recent-posts" class="collapse show-md" role="tabpanel">
+                <ul class="list-unstyled py-2">
+                
+                    <li class="py-2"><a href="/blog/arnold-palmer/">Arnold Palmer</a></li>
+                
+                    <li class="py-2"><a href="/blog/sweet-tea-shaved-ice/">Sweet Tea Shaved Ice</a></li>
+                
+                    <li class="py-2"><a href="/blog/tasting-lab-bards-blend/">Tasting Lab: Bard&#39;s Blend</a></li>
+                
+                    <li class="py-2"><a href="/blog/10-favourite-iced-tea-blends-for-summer/">10 Favourite Iced Tea Blends for Summer</a></li>
+                
+                    <li class="py-2"><a href="/blog/hop-on-the-tisane-train/">Hop on the Tisane Train. Next Stop: Summer!</a></li>
+                
+                </ul>
+            </div>
+        </div>
+        
+        
+        
+        <div class="mb-4" id="cat-accordion" role="tablist" aria-multiselectable="true">
+            <h4 class="text-left heading arrow-after" data-parent="#cat-accordion"
+                aria-expanded="false" aria-controls="blog-categories"
+                data-bs-toggle="collapse" data-bs-target="#blog-categories">Categories
+            </h4>
+            <hr class="m-0" />
+            <div id="blog-categories" class="collapse show-md" role="tabpanel">
+                <ul class="list-unstyled py-2">
+                
+                    <li class="py-2">
+                        <a href="/blog/category/behind-the-scenes/">
+                            Behind the Scenes
+                        </a> (10)
+                    </li>
+                
+                    <li class="py-2">
+                        <a href="/blog/category/gifting/">
+                            Gifting
+                        </a> (16)
+                    </li>
+                
+                    <li class="py-2">
+                        <a href="/blog/category/murchies-at-home/">
+                            Murchie&#39;s at Home
+                        </a> (34)
+                    </li>
+                
+                    <li class="py-2">
+                        <a href="/blog/category/recipes/">
+                            Recipes
+                        </a> (64)
+                    </li>
+                
+                    <li class="py-2">
+                        <a href="/blog/category/tasting-lab/">
+                            Tasting Lab
+                        </a> (2)
+                    </li>
+                
+                    <li class="py-2">
+                        <a href="/blog/category/tea-stories/">
+                            Tea Stories
+                        </a> (15)
+                    </li>
+                
+                </ul>
+            </div>
+        </div>
+        
+    
+    
+        <div class="mb-4" id="tag-accordion" role="tablist" aria-multiselectable="true">
+            <h4 class="text-left heading arrow-after" data-parent="#cat-accordion"
+                aria-expanded="false" aria-controls="tag-cloud"
+                data-bs-toggle="collapse" data-bs-target="#tag-cloud">Tag Cloud
+            </h4>
+            <hr class="m-0" />
+            <div id="tag-cloud" class="collapse show-md" role="tabpanel">
+                <ul class="list-inline py-2">
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/ice-cream/">
+                            <small>ice cream</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/festive/">
+                            <small>festive</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/harry-and-meghan/">
+                            <small>Harry and Meghan</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/spring/">
+                            <small>Spring</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/lemon-tea/">
+                            <small>lemon tea</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/smokey/">
+                            <small>smokey</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/latte/">
+                            <small>latte</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/picnic/">
+                            <small>picnic</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/wellness/">
+                            <small>Wellness</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/cold-buster/">
+                            <small>cold buster</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/travel-mug/">
+                            <small>travel mug</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/peach-passion/">
+                            <small>Peach Passion</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/juice-tea/">
+                            <small>juice tea</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/antique/">
+                            <small>Antique</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/tea-cocktail/">
+                            <small>tea cocktail</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/diy-latte/">
+                            <small>diy latte</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/turmeric/">
+                            <small>Turmeric</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/green-black-blends/">
+                            <small>green-black blends</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/horchata/">
+                            <small>Horchata</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/white-tea/">
+                            <small>white tea</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/ros%C3%A9/">
+                            <small>Rosé</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/hot-brew-and-chill/">
+                            <small>hot brew and chill</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/hibiscus/">
+                            <small>hibiscus</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/chai/">
+                            <small>chai</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/afternoon-tea/">
+                            <small>afternoon tea</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/matcha/">
+                            <small>matcha</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/cocktail/">
+                            <small>cocktail</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/beans/">
+                            <small>beans</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/cold-brew-coffee/">
+                            <small>cold brew coffee</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/campfire/">
+                            <small>campfire</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/canada-150/">
+                            <small>canada 150</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/iced-coffee/">
+                            <small>iced coffee</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/fathers-day/">
+                            <small>father&#39;s day</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/christmas/">
+                            <small>Christmas</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/family/">
+                            <small>Family</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/gift-ideas/">
+                            <small>Gift Ideas</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/morning-tea/">
+                            <small>Morning Tea</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/diy-chai/">
+                            <small>diy chai</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/tea-latte/">
+                            <small>tea latte</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/chai-loose-tea/">
+                            <small>chai loose tea</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/blue-jasmine-tea/">
+                            <small>blue jasmine tea</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/fruit-tea/">
+                            <small>fruit tea</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/chai-tea/">
+                            <small>chai tea</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/turmeric-latte/">
+                            <small>Turmeric Latte</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/hibiscus-tango/">
+                            <small>Hibiscus Tango</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/chai-tea-bags/">
+                            <small>chai tea bags</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/spiced-tea/">
+                            <small>spiced tea</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/tea/">
+                            <small>tea</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/hot-brew/">
+                            <small>hot brew</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/iced-tea/">
+                            <small>iced tea</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/sangria/">
+                            <small>sangria</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/earl-grey/">
+                            <small>earl grey</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/apple/">
+                            <small>apple</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/easter/">
+                            <small>Easter</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/golden-milk/">
+                            <small>Golden Milk</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/canada-day/">
+                            <small>canada day</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/mothers-day-1/">
+                            <small>Mothers Day</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/breakfast-tea/">
+                            <small>Breakfast Tea</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/chamomile/">
+                            <small>chamomile</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/oolong/">
+                            <small>Oolong</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/coffee/">
+                            <small>coffee</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/tea-recipe/">
+                            <small>tea recipe</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/cozy/">
+                            <small>cozy</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/pancakes/">
+                            <small>pancakes</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/cozy-tea/">
+                            <small>cozy tea</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/ceylon/">
+                            <small>Ceylon</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/holiday/">
+                            <small>holiday</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/sencha/">
+                            <small>sencha</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/canadian-breakfast/">
+                            <small>canadian breakfast</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/turmeric-elixir/">
+                            <small>Turmeric Elixir</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/gifts/">
+                            <small>gifts</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/cold-brewing/">
+                            <small>cold brewing</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/recipe/">
+                            <small>recipe</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/hibiscus-tea/">
+                            <small>hibiscus tea</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/hot-chocolate/">
+                            <small>hot chocolate</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/pumpkin-spice/">
+                            <small>pumpkin spice</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/valentines-day/">
+                            <small>Valentine&#39;s Day</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/cold-steeping/">
+                            <small>cold steeping</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/family-day/">
+                            <small>Family Day</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/royals/">
+                            <small>royals</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/brunch/">
+                            <small>Brunch</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/tea-eggs/">
+                            <small>Tea Eggs</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/royal-tea/">
+                            <small>royal tea</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/camping/">
+                            <small>camping</small>
+                        </a>
+                    </li>
+                
+                    <li class="pe-1 list-inline-item">
+                        <a href="/blog/tag/cold-brew/">
+                            <small>cold brew</small>
+                        </a>
+                    </li>
+                
+                </ul>
+            </div>
+        </div>
+    
+    </div>
+    <div class="col-12 col-sm-9 right">
+    
+        <div class="recipe-holder">
+            <div class="recipe-box">
+
+                
+
+                <div class="inner-text row g-0">
+                    <div class="col-12">
+                        
+                        
+                        <h3>
+                            <a href="/blog/arnold-palmer/">Arnold Palmer</a>
+                        </h3>
+                        
+                        
+                    </div>
+                    <div class="col-12">
+                        
+
+                        
+                        
+                            <p><img alt="Arnold Palmer" height="311" src="/media/uploads/blog/.thumbnails/arnoldpalmer_1080x1080px.png/arnoldpalmer_1080x1080px-311x311.png" style="float: right;" width="311"/>Indulge in the perfect balance of sweet and tangy with our Arnold Palmer recipe.</p>
+                        
+
+                        
+
+                        
+                        <div class="recipe-list-detail">
+                            
+                            
+                            <h5>
+                            <u><a href="/blog/arnold-palmer/">Read more...</a></u>
+                            
+                            </h5>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="recipe-holder">
+            <div class="recipe-box">
+
+                
+
+                <div class="inner-text row g-0">
+                    <div class="col-12">
+                        
+                        
+                        <h3>
+                            <a href="/blog/sweet-tea-shaved-ice/">Sweet Tea Shaved Ice</a>
+                        </h3>
+                        
+                        
+                    </div>
+                    <div class="col-12">
+                        
+
+                        
+                        
+                            <p><img alt="Iced Tea Shaved Ice" height="311" src="/media/uploads/blog/.thumbnails/shavedice_blog01.png/shavedice_blog01-311x311.png" style="float: right;" width="311"/>Bring back fond memories of childhood summers with our Sweet Tea Shaved Ice recipe.</p>
+                        
+
+                        
+
+                        
+                        <div class="recipe-list-detail">
+                            
+                            
+                            <h5>
+                            <u><a href="/blog/sweet-tea-shaved-ice/">Read more...</a></u>
+                            
+                            </h5>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="recipe-holder">
+            <div class="recipe-box">
+
+                
+
+                <div class="inner-text row g-0">
+                    <div class="col-12">
+                        
+                        
+                        <h3>
+                            <a href="/blog/tasting-lab-bards-blend/">Tasting Lab: Bard&#39;s Blend</a>
+                        </h3>
+                        
+                        
+                    </div>
+                    <div class="col-12">
+                        
+
+                        
+                        
+                            <img alt="" src="/media/uploads/blog/bardsblend.jpg" style="float: right;" width="300"/>
+<p style="margin: 0cm 0cm 7.5pt 0cm;"><span style="font-size: 10.5pt; font-family: 'Helvetica',sans-serif; color: black;">Bard's Blend was developed in conjunction with Poet's Blend, so it made sense to release them back to back. They're in a sense 'sister blends', following the same blending principles, despite how differently they turned out.</span></p>
+<p><span style="font-size: 10.5pt; font-family: 'Helvetica',sans-serif; color: black;">Whereas Poet’s Blend mixes black tea with floral-scented green and oolong teas for an aromatic, garden-in-your-cup experience, Bard’s Blend takes a different approach. Using a mix of malty and nutty black teas from India and China, they’ve been paired with smoky gunpowder green tea, and a blend of roasted oolongs. The result is a mix of toasted grains, and the barest hint of smoke. I’ve described it as ‘buttered toast’.</span></p>
+                        
+
+                        
+
+                        
+                        <div class="recipe-list-detail">
+                            
+                            
+                            <h5>
+                            <u><a href="/blog/tasting-lab-bards-blend/">Read more...</a></u>
+                            
+                            </h5>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="recipe-holder">
+            <div class="recipe-box">
+
+                
+
+                <div class="inner-text row g-0">
+                    <div class="col-12">
+                        
+                        
+                        <h3>
+                            <a href="/blog/10-favourite-iced-tea-blends-for-summer/">10 Favourite Iced Tea Blends for Summer</a>
+                        </h3>
+                        
+                        
+                    </div>
+                    <div class="col-12">
+                        
+
+                        
+                        
+                            <p><span><img alt="" src="/media/uploads/blog/06.26.jpg" style="float: right;" width="400"/>I've been collecting lots of beautiful tea blends as the weather’s been warming up, both for cold brewing in a water bottle and kept in the fridge for my own personal enjoyment, and for whipping up a quick brew method in a big pitcher for when guests come by. Today I’m sharing my favourite blends for iced tea right now.</span><strong></strong></p>
+                        
+
+                        
+
+                        
+                        <div class="recipe-list-detail">
+                            
+                            
+                            <h5>
+                            <u><a href="/blog/10-favourite-iced-tea-blends-for-summer/">Read more...</a></u>
+                            
+                            </h5>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="recipe-holder">
+            <div class="recipe-box">
+
+                
+
+                <div class="inner-text row g-0">
+                    <div class="col-12">
+                        
+                        
+                        <h3>
+                            <a href="/blog/hop-on-the-tisane-train/">Hop on the Tisane Train. Next Stop: Summer!</a>
+                        </h3>
+                        
+                        
+                    </div>
+                    <div class="col-12">
+                        
+
+                        
+                        
+                            <p><img alt="" src="/media/uploads/blog/tisane2.jpg" style="float: right;" width="300"/></p>
+<span>The weather is warmer, the days are longer, and what we’re craving is changing too: Super refreshing teas to sip on throughout the day. And wouldn’t it be nice if our favourite beverage didn’t interfere with our ever important night’s sleep so that we can make the most of the season? Lucky for us Murchie’s is positively blossoming with delicious caffeine-free infusions for uninterrupted shut-eye that can count toward your 8 cups per day too!</span>
+                        
+
+                        
+
+                        
+                        <div class="recipe-list-detail">
+                            
+                            
+                            <h5>
+                            <u><a href="/blog/hop-on-the-tisane-train/">Read more...</a></u>
+                            
+                            </h5>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+</div>
+
+<div class="d-flex justify-content-center">
+
+
+
+<ul class="pagination">
+
+<li class="prev previous page-item disabled">
+    <a class="page-link" >&larr;</a>
+</li>
+
+<li class="active">
+    <a class="page-link"  href="?page=1">1</a>
+</li>
+
+<li>
+    <a class="page-link"  href="?page=2">2</a>
+</li>
+
+<li>
+    <a class="page-link"  href="?page=3">3</a>
+</li>
+
+<li>
+    <a class="page-link"  href="?page=4">4</a>
+</li>
+
+<li class="page-item next">
+    <a class="page-link"  href="?page=2">&rarr;</a>
+</li>
+
+</ul>
+
+
+</div>
+
+
+
+
+          
+        </div>
+      
+    </div>
+    <!-- END MAIN -->
+    
+
+    
+    <!-- FOOTER -->
+      <div class="w-100" id="mc-footer-full">
+        
+          <div class="container g-0 pt-3" id="mc-footer-main">
+            <div class="row g-0 h-100 p-2">
+            
+              <div class="col-12 col-md-6 col-lg-3">
+                <h5 class="text-white">About</h5>
+                
+<ul class="footer-list">
+  
+          <li class="">
+              <a class="" href="/about-us/">About Us</a>
+            </li>
+  
+          <li class="">
+              <a class="" href="/blog/">Blog</a>
+            </li>
+  
+          <li class="">
+              <a class="" href="/cakes-in-victoria/">Cakes in Victoria</a>
+            </li>
+  
+          <li class="">
+              <a class="" href="/careers/">Careers</a>
+            </li>
+  
+          <li class="">
+              <a class="" href="/locations/">Locations &amp; Contact</a>
+            </li>
+  
+          <li class="">
+              <a class="" href="/ywca-partnership/">YWCA Partnership</a>
+            </li>
+  
+</ul>
+              </div>
+            
+            
+              <div class="col-12 col-md-6 col-lg-3">
+                <h5 class="text-white">Customer Service</h5>
+                
+<ul class="footer-list">
+  
+          <li class="">
+              <a class="" href="/covid-19-safety-plan/">COVID-19 Safety Plan</a>
+            </li>
+  
+          <li class="">
+              <a class="" href="/privacy-policy/">Privacy &amp; Security</a>
+            </li>
+  
+          <li class="">
+              <a class="" href="/returns-exchanges/">Returns &amp; Exchanges</a>
+            </li>
+  
+          <li class="">
+              <a class="" href="/shipping/">Shipping &amp; Payment</a>
+            </li>
+  
+          <li class="">
+              <a class="" href="/policies/">Terms &amp; Conditions</a>
+            </li>
+  
+          <li class="">
+              <a class="" href="/wholesale-inquiries/">Wholesale Inquiries</a>
+            </li>
+  
+</ul>
+              </div>
+            
+
+            
+              <div class="col-12 col-md-6 col-lg-3">
+                <h5 class="text-white"></h5>
+                
+<ul class="footer-list">
+  
+</ul>
+              </div>
+            
+
+            
+<div class="col-12 col-md-6 col-lg-3">
+<h5>Contact Us</h5>
+<p>1-800-663-0400 | info@murchies.com</p>
+<p class="text-left w-100">Proudly Canadian Since 1894</p>
+<h5>Stay Connected</h5>
+<a href="/newsletter">Sign up for our newsletter today and receive $10 off your next online order of $50 or more</a>
+<div class="d-flex justify-content-end">
+    <a href="https://twitter.com/murchies">
+        <i class="fa-brands fs-2 fa-twitter"></i>
+    </a>
+    <a href="https://www.facebook.com/MurchiesTeaCoffee/">
+        <i class="fa-brands fs-2  fa-facebook mx-3"></i>
+    </a>
+    <a href="https://www.instagram.com/murchiestea/">
+        <i class="fa-brands fs-2  fa-instagram"></i>
+    </a>
+</div>
+</div>
+
+
+            </div>
+          </div>
+        
+        
+    <div class="container g-0" id="mc-footer-below">
+    <small class="text-muted">© 2022 Murchie's Tea & Coffee (2007). All Rights Reserved. Powered by Mighty Oaks</small>
+    </div>
+
+      </div>
+    <!-- END FOOTER -->
+    
+    
+    <!-- Begin Menu -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        
+<img class="img-fluid" src="/static/brand/img/brand_logo.svg" style="height: 36px;">
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+
+      </div>
+      <div class="offcanvas-body p-0" id="mainNavMenu">
+      </div>
+      <div class="offcanvas-footer p-0">
+        <ul class="navbar-nav justify-content-end flex-grow-1 offcanvas-navmenu">
+          
+        </ul>
+      </div>
+    </div>
+      <!-- End Menu -->
+    
+
+    
+    <!-- Begin Mini Cart -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasMiniCart" aria-labelledby="offcanvasMiniCartLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title text-dark" id="offcanvasMiniCartLabel">Your Cart</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body" id="miniCartView">
+        <div class="mini-cart"></div>
+      </div>
+    </div>
+    <!-- End Mini Cart -->
+    
+
+    
+
+    <!-- Cart Empty Dialog -->
+    <div class="modal fade" id="emptyCartModal" tabindex="-1" aria-hidden="true" aria-labelledby="emptyCartModalLabel">
+      <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title" id="emptyCartModalLabel">Empty Cart</h5>
+              </div>
+              <div class="modal-body">
+                  Are you sure you want to empty the cart?
+              </div>
+              <div class="modal-footer d-flex justify-content-between">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Go Back</button>
+                  <button type="button" class="btn btn-success" data-bs-dismiss="modal" onclick="window.MightyJS.empty_cart()">Empty</button>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- Add to List Dialog -->
+  <div class="modal fade" id="addToListModal" tabindex="-1" aria-hidden="true" aria-labelledby="addToListModalLabel">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="addToListModalLabel">Create a new list</h5>
+            </div>
+            <div class="modal-body d-flex justify-content-between">
+              <form class="w-100 d-flex" id="addToListForm">
+                <div class="input-group flex-nowrap">
+                <input type="text" name="list_name" class="form-control"/>
+                <button type="submit" class="btn btn-default" data-bs-dismiss="modal" data-bs-target="#addToListModal">Save</button>
+              </form>
+            </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <!-- Delete List Dialog -->
+  <div class="modal fade" id="deleteListModal" tabindex="-1" aria-hidden="true" aria-labelledby="deleteListModalLabel">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="deleteListModalLabel">Delete the list</h5>
+            </div>
+            <div class="modal-body d-flex justify-content-between">
+                <button type="button" class="btn btn-default" data-bs-dimiss="modal" data-bs-target="#deleteListModal">Go Back</button>
+                <button type="button" id="deleteListButton" class="btn btn-danger" data-bs-dismiss="modal" data-bs-target="#deleteListModalModal">Yes, Delete</button>
+              </form>
+            </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <!-- Store Selection Dialog -->
+  
+  
+  
+<!-- Toasts-->
+<div class="toast-container position-fixed bottom-0 end-0 p-3">
+  <div id="addToListToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-body">
+      Added product to list
+    </div>
+  </div>
+</div>
+    
+  <div class="scrollTop" onclick="window.MightyJS.scrollToTop()">
+    <i class="fa-solid fa-arrow-up"></i>
+  </div>
+
+  </div>
+
+
+    
+
+
+
+
+
+
+    
+  <script type="text/javascript">
+    var csrf_token = "utrqdrCQxnnknTVrI4LMm2FCnshgEtaDIiSfjDMFs2X0DpzSAyX4V1vZrl7uzxw0";
+  </script>
+  
+
+  
+
+  
+  
+    <!-- Legacy Analytics not configured -->
+    
+    
+    
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GDTLQW7DNC"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-GDTLQW7DNC');
+    gtag('config', 'UA-25462261-1');
+    </script>
+
+    
+
+
+</body>
+
+
+
+<script defer src="/static/vendor/alpinejs/cdn.min.js"></script>
+<script>
+  document.addEventListener('alpine:init', () => {
+    Alpine.store('alpineCart', {
+      cart: {"id": null, "items": []},
+      user: {"is_authenticated": false, "username": ""},
+      getItem(unique_key) {
+        const items = this.cart.items;
+        for (let i = 0; i < items.length; i++) {
+            if (items[i].unique_key === unique_key) {
+                return items[i]
+            }
+        }
+      },
+      cartAdd(unique_key, quantity){
+        /*
+            Updates multiple cart items via AJAX
+            (Endpoint: cart_add_endpoint)
+
+            data looks like:
+
+                {
+                    'mode': 'JSON',
+                    '4011-1': 3,
+                    '4013-1': -1,
+                    '4015-1': 12
+                }
+        */
+
+        var data = {}
+        data[unique_key] = quantity
+
+        var csrftoken = window.csrf_token;
+
+        data['mode'] = 'JSON';
+        console.log(data)
+        var request = $.ajaxq("MightyQ", {
+            url: cart_add_endpoint,
+            type: "POST",
+            headers: {'X-CSRFToken': csrftoken},
+            complete: function (xhr, status){
+                if ( status === "success" ){
+                    console.log(xhr);
+                }
+            },
+            data: data
+        });
+        return request;
+      }
+    })
+})
+  
+</script>
+
+
+
+
+
+</html>
